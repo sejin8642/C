@@ -4,5 +4,5 @@ This repository contains my solutions to the exercises and problems from "The C 
 
 ## Organization
 
-The repository is organized by chapter examples and exercises. The numbering scheme for chapter example c text file is ch\<chapter number\>.\<section number\>.\<example number\>. For exercises, it is exactly the same as the exercise number. 
+The repository is organized by chapter examples and exercises. The numbering scheme for chapter example text file is ch\<chapter number\>.\<section number\>.\<subsection number\>. For exercises, it is exactly the same as the exercise number. 
 

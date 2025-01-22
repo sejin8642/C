@@ -1,7 +1,7 @@
 #include <stdio.h>
-int power(int m, int n);
-/* test power function */
+int power(int m, int n); // you can also declare as int power(int, int); 
 
+/* test power function */
 int main() {
     int i;
     for (i = 0; i < 10; ++i)

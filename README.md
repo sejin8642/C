@@ -1,6 +1,6 @@
 # C Programming Language Solutions
 
-This repository contains my solutions to the exercises and problems from "The C Programming Language, 2nd Edition" (K&R) by Brian W. Kernighan and Dennis M. Ritchie.
+This repository contains my solutions to exercises and problems from "The C Programming Language, 2nd Edition" (K&R) by Brian W. Kernighan and Dennis M. Ritchie.
 
 ## Organization
 

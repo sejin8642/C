@@ -38,7 +38,7 @@ int readlines(char *lineptr[], int maxlines, char *allocp) {
             return -1;
         else {
             line[len-1] = '\0'; /* delete newline */
-            strcpy(allocp, line);
+            strcpy(allocp, line); /* copy the read line into allocbuf */
             allocp += len;
             lineptr[nlines++] = allocp;
         }

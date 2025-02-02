@@ -15,6 +15,8 @@ int main(int argc, char *argv[]) {
 
     if ((nlines = readlines(lineptr, MAXLINES, allocbuf)) >= 0) {
         if (argc == 3 && argv[1][0] == '-' && argv[1][1] == 'n' && (n = atoi(argv[2])))
+            if (n < 0) // terminate the program if n is less than 0
+                return;
             nlines = (n < nlines) ? n: nlines;
         writelines(lineptr, nlines);
         return 0;
